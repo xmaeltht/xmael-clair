@@ -1,0 +1,9 @@
+bin/build.sh
+bin/destroy.sh
+bin/install.sh
+bin/rebuild.sh
+bin/rerun.sh
+bin/run.sh
+bin/start.sh
+bin/stop.sh
+bin/test.sh

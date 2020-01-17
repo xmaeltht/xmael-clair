@@ -1,0 +1,7 @@
+#!/bin/bash
+
+. /usr/local/bin/library.sh
+
+prepSCIM
+
+exec /usr/bin/supervisord -c /opt/tier-support/supervisord-tomee.conf

@@ -1,0 +1,4 @@
+<Context docBase="/opt/grouper/grouper.ws/" path="/grouper-ws" reloadable="false">
+    <!-- Allow our symlinks to work-->
+    <Resources allowLinking="true" />
+</Context>

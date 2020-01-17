@@ -1,0 +1,10 @@
+#!/bin/bash
+
+. /usr/local/bin/library.sh
+
+prepUI
+prepWS
+
+export LD_LIBRARY_PATH=/opt/shibboleth/lib64:$LD_LIBRARY_PATH
+
+/usr/bin/supervisord -c /opt/tier-support/supervisord-tomcat.conf

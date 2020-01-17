@@ -1,0 +1,6 @@
+<Context docBase="/opt/grouper/grouper.scim/" path="/grouper-ws-scim" reloadable="false">
+    <!-- Allow our symlinks to work-->
+    <Resources allowLinking="true" />
+</Context>
+
+

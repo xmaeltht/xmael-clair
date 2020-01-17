@@ -1,0 +1,9 @@
+#!/bin/bash
+
+. /usr/local/bin/library.sh
+
+prepDaemon
+
+export GSH_JVMARGS="$GSH_JVMARGS -DENV=$ENV -DUSERTOKEN=$USERTOKEN"
+
+exec bin/gsh -loader > /tmp/loggrouper
