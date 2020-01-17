@@ -1,4 +1,4 @@
-# ClaiR - C Language Analysis in Rascal
+# Clair - C Language Analysis in Rascal
 
 ClaiR provides a mapping from the Eclipse CDT open C and C++ front-end to a Rascal M3 model for further processing.
 
